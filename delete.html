@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Удаление данных — Memo Dan / Data deletion</title>
+<style>
+  :root{
+    --canvas:#F4EEE1; --surface:#FFFCF4; --ink:#23262B; --muted:#6B675E;
+    --line:#E1D7C3; --accent:#2E6B5C;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; padding:24px 18px 60px; background:var(--canvas); color:var(--ink);
+    font-family:"Rubik","Segoe UI",system-ui,-apple-system,sans-serif;
+    line-height:1.55;
+  }
+  main{max-width:760px; margin:0 auto;}
+  nav{display:flex; flex-wrap:wrap; gap:10px; margin:0 0 18px;}
+  nav a{
+    font-size:13px; color:var(--muted); text-decoration:none;
+    border:1px solid var(--line); border-radius:999px; padding:4px 10px;
+  }
+  nav a:hover{color:var(--accent); border-color:var(--accent);}
+  h1{font-size:26px; margin:0 0 6px;}
+  h2{font-size:19px; margin:28px 0 8px;}
+  p,li{font-size:16px;}
+  .sub{color:var(--muted); margin:0 0 20px;}
+  .card{background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:18px 20px; margin:16px 0;}
+  code{background:#EFE7D6; border-radius:6px; padding:2px 6px; font-size:15px;}
+  a{color:var(--accent);}
+  ol,ul{padding-left:22px;}
+  .divider{border:0; border-top:1px solid var(--line); margin:36px 0;}
+  .note{font-size:14px; color:var(--muted);}
+  section{scroll-margin-top:16px;}
+</style>
+</head>
+<body>
+<main>
+<nav>
+  <a href="#ru">Русский</a><a href="#en">English</a><a href="#es">Español</a>
+  <a href="#ko">한국어</a><a href="#de">Deutsch</a><a href="#fr">Français</a>
+  <a href="#kk">Қазақша</a><a href="#pt">Português</a>
+</nav>
+
+<section id="ru">
+  <h1>Удаление данных — Memo Dan</h1>
+  <p class="sub">Приложение <strong>Memo Dan</strong> (<code>com.gamememory.memory</code>), независимый разработчик.
+  Контакт: <a href="mailto:Fox_Memory@qptex.kz">Fox_Memory@qptex.kz</a>.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0">Как запросить удаление</h2>
+    <ol>
+      <li>Напишите письмо на <a href="mailto:Fox_Memory@qptex.kz?subject=Delete%20my%20data%20-%20Memo%20Dan">Fox_Memory@qptex.kz</a>
+        с темой <strong>«Удаление данных — Memo Dan»</strong>.</li>
+      <li>Укажите <strong>ник</strong>, который виден в топах (например, «Шёлковый Мёд #3660»).
+        Если ник менялся — перечислите все варианты, которые помните.</li>
+      <li>По желанию: примерную дату последней игры и модель телефона — так найдём записи быстрее.</li>
+      <li>Ответим с подтверждением, когда данные удалены. Срок — до 30 дней, обычно в течение одного дня.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">Что удаляется</h2>
+    <ul>
+      <li>ник и анонимный идентификатор игрока;</li>
+      <li>результаты партий: режим, поле, время, ходы, очки, точность, победа/победитель, ключ соревнования,
+        служебные данные партии (колода, seed, последовательность ходов, число смен имени);</li>
+      <li>после удаления результаты исчезают из мирового рейтинга, топа дня/недели и зала славы.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">Что не требует запроса</h2>
+    <ul>
+      <li><strong>Данные на телефоне</strong> (прогресс, монеты, XP, рекорды, настройки) удаляются вместе
+        с приложением — просто удалите его.</li>
+      <li><strong>Отчёты об ошибках и события игры</strong> не привязаны к нику и хранятся в сыром виде
+        <strong>90 дней</strong>, затем удаляются автоматически.</li>
+      <li>Аккаунтов с логином нет: регистрация не нужна, сервер создаёт анонимную сессию.</li>
+      <li>Если мировые топы были выключены, на сервере ваших данных нет — достаточно удалить приложение.</li>
+    </ul>
+  </div>
+  <p class="note">Полный текст политики конфиденциальности:
+    <a href="https://lqpl777.github.io/game-fox_memory-policy/privacy.html">privacy.html</a> (v2.3).
+    Запросы принимаем на любом языке.</p>
+</section>
+
+<hr class="divider">
+
+<section id="en">
+  <h1>Data deletion — Memo Dan</h1>
+  <p class="sub">App <strong>Memo Dan</strong> (<code>com.gamememory.memory</code>), independent developer.
+  Contact: <a href="mailto:Fox_Memory@qptex.kz">Fox_Memory@qptex.kz</a>.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0">How to request deletion</h2>
+    <ol>
+      <li>Email <a href="mailto:Fox_Memory@qptex.kz?subject=Delete%20my%20data%20-%20Memo%20Dan">Fox_Memory@qptex.kz</a>
+        with the subject <strong>“Delete my data — Memo Dan”</strong>.</li>
+      <li>Include the <strong>nickname</strong> shown in the leaderboards (e.g. “Windy Dolphin #9520”).
+        If you changed it, list every version you remember.</li>
+      <li>Optional: approximate date of your last game and phone model — it helps us find the rows faster.</li>
+      <li>We reply with confirmation once the data is deleted. It takes up to 30 days, usually within one day.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">What gets deleted</h2>
+    <ul>
+      <li>nickname and anonymous player id;</li>
+      <li>game results: mode, board, time, moves, score, accuracy, win/winner, contest key,
+        service data of the game (deck, seed, sequence of moves, number of name changes);</li>
+      <li>after deletion the results disappear from the world rating, daily/weekly top and hall of fame.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">What needs no request</h2>
+    <ul>
+      <li><strong>On-device data</strong> (progress, coins, XP, records, settings) is removed with the app —
+        just uninstall it.</li>
+      <li><strong>Crash reports and game events</strong> are not linked to a nickname and are kept raw for
+        <strong>90 days</strong>, then deleted automatically.</li>
+      <li>There are no login accounts: no sign-up is needed, the server creates an anonymous session.</li>
+      <li>If world leaderboards were turned off, no data is stored on our server — uninstalling the app is enough.</li>
+    </ul>
+  </div>
+  <p class="note">Full privacy policy:
+    <a href="https://lqpl777.github.io/game-fox_memory-policy/privacy.html">privacy.html</a> (v2.3).
+    Requests in any language are welcome.</p>
+</section>
+
+<hr class="divider">
+
+<section id="es">
+  <h1>Borrado de datos — Memo Dan</h1>
+  <p class="sub">Aplicación <strong>Memo Dan</strong> (<code>com.gamememory.memory</code>), desarrollador independiente.
+  Contacto: <a href="mailto:Fox_Memory@qptex.kz">Fox_Memory@qptex.kz</a>.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0">Cómo solicitar el borrado</h2>
+    <ol>
+      <li>Escribe a <a href="mailto:Fox_Memory@qptex.kz?subject=Delete%20my%20data%20-%20Memo%20Dan">Fox_Memory@qptex.kz</a>
+        con el asunto <strong>«Borrado de datos — Memo Dan»</strong>.</li>
+      <li>Indica el <strong>apodo</strong> que aparece en los tops (por ejemplo, «Windy Dolphin #9520»).
+        Si lo cambiaste, escribe todas las variantes que recuerdes.</li>
+      <li>Opcional: fecha aproximada de la última partida y modelo del teléfono — ayuda a encontrar los registros.</li>
+      <li>Respondemos con confirmación cuando los datos estén borrados. Plazo: hasta 30 días, normalmente un día.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">Qué se borra</h2>
+    <ul>
+      <li>apodo e id anónimo de jugador;</li>
+      <li>resultados: modo, tablero, tiempo, movimientos, puntos, precisión, victoria/ganador, clave de competición,
+        datos de servicio de la partida (baraja, seed, secuencia de jugadas, número de cambios de apodo);</li>
+      <li>tras el borrado los resultados desaparecen de los tops, del top diario/semanal y del salón de la fama.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">Qué no requiere solicitud</h2>
+    <ul>
+      <li><strong>Datos en el teléfono</strong> (progreso, monedas, XP, récords, ajustes) se borran con la app:
+        basta con desinstalarla.</li>
+      <li><strong>Informes de errores y eventos de juego</strong> no están vinculados al apodo y se guardan sin procesar
+        <strong>90 días</strong>; luego se borran solos.</li>
+      <li>No hay cuentas con inicio de sesión: no hace falta registrarse, el servidor crea una sesión anónima.</li>
+      <li>Si los tops mundiales estaban desactivados, no hay datos en el servidor: basta con desinstalar la app.</li>
+    </ul>
+  </div>
+  <p class="note">Política de privacidad completa:
+    <a href="https://lqpl777.github.io/game-fox_memory-policy/privacy.html">privacy.html</a> (v2.3).
+    Aceptamos solicitudes en cualquier idioma.</p>
+</section>
+
+<hr class="divider">
+
+<section id="ko">
+  <h1>데이터 삭제 — Memo Dan</h1>
+  <p class="sub">앱 <strong>Memo Dan</strong> (<code>com.gamememory.memory</code>), 개인 개발자.
+  연락처: <a href="mailto:Fox_Memory@qptex.kz">Fox_Memory@qptex.kz</a>.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0">삭제 요청 방법</h2>
+    <ol>
+      <li><a href="mailto:Fox_Memory@qptex.kz?subject=Delete%20my%20data%20-%20Memo%20Dan">Fox_Memory@qptex.kz</a>로
+        메일 제목을 <strong>'데이터 삭제 — Memo Dan'</strong>으로 적어 보내 주세요.</li>
+      <li>랭킹에 보이는 <strong>닉네임</strong>을 적어 주세요(예: 'Windy Dolphin #9520').
+        닉네임을 바꿨다면 기억나는 모든 버전을 적어 주세요.</li>
+      <li>선택 사항: 마지막 게임 날짜와 기종 — 기록을 더 빨리 찾을 수 있습니다.</li>
+      <li>삭제가 끝나면 확인 메일을 보냅니다. 최대 30일, 보통 하루 안에 처리합니다.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">삭제되는 것</h2>
+    <ul>
+      <li>닉네임과 익명 플레이어 ID;</li>
+      <li>게임 결과: 모드, 보드, 시간, 이동 수, 점수, 정확도, 승리/승자, 대회 키,
+        게임 서비스 데이터(덱, seed, 이동 순서, 닉네임 변경 횟수);</li>
+      <li>삭제 후 결과는 세계 랭킹, 일간/주간 랭킹, 명예의 전당에서 사라집니다.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">요청이 필요 없는 것</h2>
+    <ul>
+      <li><strong>기기의 데이터</strong>(진행도, 코인, XP, 기록, 설정)는 앱을 삭제하면 함께 지워집니다.</li>
+      <li><strong>오류 보고와 게임 이벤트</strong>는 닉네임과 연결되지 않으며 원본으로 <strong>90일</strong> 보관 후
+        자동으로 삭제됩니다.</li>
+      <li>로그인 계정은 없습니다. 가입 없이 서버가 익명 세션을 만듭니다.</li>
+      <li>세계 랭킹을 꺼 두었다면 서버에 저장된 데이터가 없습니다. 앱을 삭제하면 됩니다.</li>
+    </ul>
+  </div>
+  <p class="note">개인정보 처리방침 전문:
+    <a href="https://lqpl777.github.io/game-fox_memory-policy/privacy.html">privacy.html</a> (v2.3).
+    모든 언어로 요청할 수 있습니다.</p>
+</section>
+
+<hr class="divider">
+
+<section id="de">
+  <h1>Datenlöschung — Memo Dan</h1>
+  <p class="sub">App <strong>Memo Dan</strong> (<code>com.gamememory.memory</code>), unabhängiger Entwickler.
+  Kontakt: <a href="mailto:Fox_Memory@qptex.kz">Fox_Memory@qptex.kz</a>.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0">So beantragst du die Löschung</h2>
+    <ol>
+      <li>Schreib eine E-Mail an <a href="mailto:Fox_Memory@qptex.kz?subject=Delete%20my%20data%20-%20Memo%20Dan">Fox_Memory@qptex.kz</a>
+        mit dem Betreff <strong>„Datenlöschung — Memo Dan“</strong>.</li>
+      <li>Nenne den <strong>Nicknamen</strong> aus den Ranglisten (z. B. „Windy Dolphin #9520“).
+        Falls du ihn geändert hast, nenne bitte alle Varianten, die du kennst.</li>
+      <li>Optional: Datum der letzten Partie und Gerätemodell — so finden wir die Daten schneller.</li>
+      <li>Wir bestätigen die Löschung per E-Mail; das dauert bis zu 30 Tage, meist einen Tag.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">Was gelöscht wird</h2>
+    <ul>
+      <li>Nickname und anonyme Spieler-ID;</li>
+      <li>Spielergebnisse: Modus, Brett, Zeit, Züge, Punkte, Genauigkeit, Sieg/Gewinner, Wettbewerbsschlüssel,
+        Servicedaten der Partie (Deck, Seed, Zugfolge, Anzahl der Namensänderungen);</li>
+      <li>danach verschwinden die Ergebnisse aus Weltrangliste, Tages-/Wochen-Top und Ruhmeshalle.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">Was ohne Antrag gelöscht wird</h2>
+    <ul>
+      <li><strong>Daten auf dem Gerät</strong> (Fortschritt, Münzen, XP, Rekorde, Einstellungen) werden mit
+        der App gelöscht — einfach deinstallieren.</li>
+      <li><strong>Fehlerberichte und Spielereignisse</strong> sind nicht mit einem Nicknamen verknüpft und werden
+        90 Tage im Rohzustand gespeichert, danach automatisch gelöscht.</li>
+      <li>Es gibt keine Konten mit Anmeldung: keine Registrierung nötig, der Server erstellt eine anonyme Sitzung.</li>
+      <li>Waren die Weltranglisten ausgeschaltet, liegen keine Daten auf dem Server — Deinstallieren genügt.</li>
+    </ul>
+  </div>
+  <p class="note">Vollständige Datenschutzerklärung:
+    <a href="https://lqpl777.github.io/game-fox_memory-policy/privacy.html">privacy.html</a> (v2.3).
+    Anfragen in jeder Sprache sind willkommen.</p>
+</section>
+
+<hr class="divider">
+
+<section id="fr">
+  <h1>Suppression des données — Memo Dan</h1>
+  <p class="sub">Application <strong>Memo Dan</strong> (<code>com.gamememory.memory</code>), développeur indépendant.
+  Contact : <a href="mailto:Fox_Memory@qptex.kz">Fox_Memory@qptex.kz</a>.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0">Comment demander la suppression</h2>
+    <ol>
+      <li>Écris à <a href="mailto:Fox_Memory@qptex.kz?subject=Delete%20my%20data%20-%20Memo%20Dan">Fox_Memory@qptex.kz</a>
+        avec l’objet <strong>« Suppression des données — Memo Dan »</strong>.</li>
+      <li>Indique le <strong>pseudo</strong> visible dans les classements (par exemple « Windy Dolphin #9520 »).
+        Si tu l’as changé, liste toutes les versions dont tu te souviens.</li>
+      <li>Facultatif : date approximative de la dernière partie et modèle du téléphone — cela accélère la recherche.</li>
+      <li>Nous te confirmons la suppression une fois les données effacées. Délai : jusqu’à 30 jours, souvent un jour.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">Ce qui est supprimé</h2>
+    <ul>
+      <li>pseudo et id anonyme de joueur ;</li>
+      <li>résultats : mode, plateau, temps, coups, points, précision, victoire/gagnant, clé de compétition,
+        données techniques de la partie (jeu de cartes, seed, ordre des coups, nombre de changements de pseudo) ;</li>
+      <li>après suppression, les résultats disparaissent des classements, du top du jour/de la semaine et du panthéon.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">Ce qui ne nécessite aucune demande</h2>
+    <ul>
+      <li><strong>Les données sur le téléphone</strong> (progression, pièces, XP, records, réglages) partent
+        avec l’application — il suffit de la désinstaller.</li>
+      <li><strong>Les rapports d’erreurs et événements de jeu</strong> ne sont pas liés à un pseudo et sont conservés
+        90 jours sous forme brute, puis supprimés automatiquement.</li>
+      <li>Pas de comptes avec connexion : aucune inscription, le serveur crée une session anonyme.</li>
+      <li>Si les classements mondiaux étaient désactivés, aucune donnée n’est stockée sur le serveur — désinstaller l’application suffit.</li>
+    </ul>
+  </div>
+  <p class="note">Politique de confidentialité complète :
+    <a href="https://lqpl777.github.io/game-fox_memory-policy/privacy.html">privacy.html</a> (v2.3).
+    Demandes acceptées dans toutes les langues.</p>
+</section>
+
+<hr class="divider">
+
+<section id="kk">
+  <h1>Деректерді жою — Memo Dan</h1>
+  <p class="sub">Қолданба <strong>Memo Dan</strong> (<code>com.gamememory.memory</code>), тәуелсіз әзірлеуші.
+  Байланыс: <a href="mailto:Fox_Memory@qptex.kz">Fox_Memory@qptex.kz</a>.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0">Жоюды қалай сұрауға болады</h2>
+    <ol>
+      <li><a href="mailto:Fox_Memory@qptex.kz?subject=Delete%20my%20data%20-%20Memo%20Dan">Fox_Memory@qptex.kz</a>
+        мекенжайына <strong>«Деректерді жою — Memo Dan»</strong> тақырыбымен жазыңыз.</li>
+      <li>Топтарда көрінетін <strong>нікті</strong> көрсетіңіз (мысалы, «Windy Dolphin #9520»).
+        Никті өзгертсеңіз, есіңізде қалған барлық нұсқасын жазыңыз.</li>
+      <li>Қаласаңыз: соңғы ойын күні мен телефон моделі — жазбаларды тезірек табамыз.</li>
+      <li>Деректер жойылған соң растау жібереміз. Мерзімі — 30 күнге дейін, әдетте бір күн.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">Не жойылады</h2>
+    <ul>
+      <li>ник және жасырын ойыншы ID;</li>
+      <li>ойын нәтижелері: режим, өріс, уақыт, жүріс, ұпай, дәлдік, жеңіс/жеңімпаз, жарыс кілті,
+        ойынның қызметтік деректері (колода, seed, жүрістер реті, ник өзгерту саны);</li>
+      <li>жойылған соң нәтижелер әлемдік рейтингтен, күндік/апталық топтан және даңқ залынан жоғалады.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">Сұраусыз жойылатындар</h2>
+    <ul>
+      <li><strong>Телефондағы деректер</strong> (прогресс, монеталар, XP, рекордтар, баптаулар) қолданбамен
+        бірге жойылады — қолданбаны жою жеткілікті.</li>
+      <li><strong>Қате есептері мен ойын оқиғалары</strong> никке байланысты емес және шикі күйде
+        <strong>90 күн</strong> сақталып, кейін өздігінен жойылады.</li>
+      <li>Кіру аккаунттары жоқ: тіркелу қажет емес, сервер жасырын сессия жасайды.</li>
+      <li>Әлемдік топтар өшірулі болса, серверде деректеріңіз жоқ — қолданбаны жою жеткілікті.</li>
+    </ul>
+  </div>
+  <p class="note">Құпиялылық саясатының толық мәтіні:
+    <a href="https://lqpl777.github.io/game-fox_memory-policy/privacy.html">privacy.html</a> (v2.3).
+    Сұрауларды кез келген тілде қабылдаймыз.</p>
+</section>
+
+<hr class="divider">
+
+<section id="pt">
+  <h1>Exclusão de dados — Memo Dan</h1>
+  <p class="sub">Aplicativo <strong>Memo Dan</strong> (<code>com.gamememory.memory</code>), desenvolvedor independente.
+  Contato: <a href="mailto:Fox_Memory@qptex.kz">Fox_Memory@qptex.kz</a>.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0">Como pedir a exclusão</h2>
+    <ol>
+      <li>Escreva para <a href="mailto:Fox_Memory@qptex.kz?subject=Delete%20my%20data%20-%20Memo%20Dan">Fox_Memory@qptex.kz</a>
+        com o assunto <strong>«Exclusão de dados — Memo Dan»</strong>.</li>
+      <li>Informe o <strong>apelido</strong> que aparece nos topos (por exemplo, «Windy Dolphin #9520»).
+        Se mudou, liste todas as versões que lembrar.</li>
+      <li>Opcional: data aproximada da última partida e modelo do aparelho — ajuda a achar os registros.</li>
+      <li>Respondemos com confirmação quando os dados forem excluídos. Prazo: até 30 dias, normalmente um dia.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">O que é excluído</h2>
+    <ul>
+      <li>apelido e id anônimo de jogador;</li>
+      <li>resultados: modo, tabuleiro, tempo, jogadas, pontos, precisão, vitória/vencedor, chave da competição,
+        dados de serviço da partida (baralho, seed, ordem das jogadas, número de trocas de apelido);</li>
+      <li>depois da exclusão os resultados saem dos topos, do top diário/semanal e do hall da fama.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">O que não precisa de pedido</h2>
+    <ul>
+      <li><strong>Dados no aparelho</strong> (progresso, moedas, XP, recordes, ajustes) saem junto com o app —
+        basta desinstalar.</li>
+      <li><strong>Relatórios de falha e eventos de jogo</strong> não estão ligados ao apelido e ficam em estado bruto por
+        <strong>90 dias</strong>, depois são excluídos automaticamente.</li>
+      <li>Não há contas com login: não é preciso cadastro, o servidor cria uma sessão anônima.</li>
+      <li>Se os rankings mundiais estavam desligados, não há dados no servidor — basta desinstalar o app.</li>
+    </ul>
+  </div>
+  <p class="note">Política de privacidade completa:
+    <a href="https://lqpl777.github.io/game-fox_memory-policy/privacy.html">privacy.html</a> (v2.3).
+    Aceitamos pedidos em qualquer idioma.</p>
+</section>
+</main>
+</body>
+</html>
