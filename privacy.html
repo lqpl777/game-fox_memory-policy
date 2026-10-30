@@ -26,7 +26,7 @@ a{color:#2E6B5C}
 <div class="card">
 <h1>Политика конфиденциальности / Privacy Policy</h1>
 <p class="meta">
-<b>Приложение:</b> Memo Dan — найди пары (<code>com.gamememory.memory</code>)<br><b>Версия документа:</b> 2.2 — действует с версии игры 0.112<br><b>История:</b> v1.0 (21.10.2026) — только локальные данные; v2.0 — добавлены сетевые топы, отчёты об ошибках, статистика, согласия; v2.1 (29.10.2026) — игра переименована в Memo Dan; v2.2 (29.10.2026) — уточнено, какие поля уходят (результаты, события, отчёты), права чтения на сервере, обмен в «Рядом» и анонимная сессия.<br><b>Контакт по данным:</b> <a href="mailto:Fox_Memory@qptex.kz">Fox_Memory@qptex.kz</a> — вопросы, удаление данных.<br><b>Полный текст онлайн:</b> <a href="https://lqpl777.github.io/game-fox_memory-policy/privacy.html">https://lqpl777.github.io/game-fox_memory-policy/privacy.html</a>
+<b>Приложение:</b> Memo Dan — найди пары (<code>com.gamememory.memory</code>)<br><b>Версия документа:</b> 2.3 — действует с версии игры 0.112<br><b>История:</b> v1.0 (21.10.2026) — только локальные данные; v2.0 — добавлены сетевые топы, отчёты об ошибках, статистика, согласия; v2.1 (29.10.2026) — игра переименована в Memo Dan; v2.2 (29.10.2026) — уточнено, какие поля уходят (результаты, события, отчёты), права чтения на сервере, обмен в «Рядом» и анонимная сессия; v2.3 (30.10.2026) — раскрыты категории данных: результаты партий и служебные данные игры/профиля (включая последовательность ходов для проверки честности), техническая трассировка в отчётах об ошибках.<br><b>Контакт по данным:</b> <a href="mailto:Fox_Memory@qptex.kz">Fox_Memory@qptex.kz</a> — вопросы, удаление данных.<br><b>Полный текст онлайн:</b> <a href="https://lqpl777.github.io/game-fox_memory-policy/privacy.html">https://lqpl777.github.io/game-fox_memory-policy/privacy.html</a>
 </p>
 </div>
 <div class="card" id="ru">
@@ -39,14 +39,14 @@ a{color:#2E6B5C}
 <h3>3. Что уходит на наш сервер (Supabase, EU)</h3>
 <table>
 <tr><th>Данные</th><th>Зачем</th><th>Сколько хранится</th></tr>
-<tr><td>Ник + результаты партий (режим, поле, время, ходы, очки, точность, победа/победитель, ключ соревнования)</td><td>мировые топы и соревнования</td><td>пока не попросите удалить</td></tr>
-<tr><td>Отчёты об ошибках (версия, режим, уровень, текст ошибки, модель телефона, версия ОС, действия перед ошибкой)</td><td>чинить падения</td><td>сырые — 90 дней</td></tr>
+<tr><td>Ник и результаты партий (режим, поле, время, ходы, очки, точность, победа/победитель, ключ соревнования), а также служебные данные партии и профиля (колода, seed, последовательность ходов, число смен имени) — для топов и проверки честности</td><td>мировые топы и соревнования</td><td>пока не попросите удалить</td></tr>
+<tr><td>Отчёты об ошибках (версия, режим, уровень, текст ошибки и техническая трассировка, модель телефона, версия ОС, действия перед ошибкой)</td><td>чинить падения</td><td>сырые — 90 дней</td></tr>
 <tr><td>События игры (действие, режим, поле, уровень, результат, длительность, язык, версия)</td><td>понимать, во что играют</td><td>сырые — 90 дней</td></tr>
 <tr><td>Анонимный идентификатор игрока (без входа и email)</td><td>связать строки одного устройства между собой</td><td>пока не попросите удалить</td></tr>
 </table>
 <p>IP-адрес автоматически видит хостинг (как у любого сайта), отдельно мы его не собираем и не храним.</p>
 <h3>4. Чего мы НЕ собираем вообще</h3>
-<p>Контакты, геолокация, микрофон/камера, SMS, список приложений, рекламные идентификаторы, данные банковских карт, точные данные о детях. Трекинга между приложениями нет (Google Signals выключен, рекламных SDK нет).</p>
+<p>Контакты, геолокация, микрофон/камера, SMS, список приложений, рекламные идентификаторы, данные банковских карт, точные данные о детях. Трекинга между приложениями нет: сторонних SDK аналитики и рекламы в игре нет.</p>
 <h3>5. Кому видны данные</h3>
 <ul>
 <li><b>Supabase</b> (хостинг в ЕС): хранит и обрабатывает таблицы по нашему поручению, соединение шифруется (TLS).</li>
@@ -86,14 +86,14 @@ a{color:#2E6B5C}
 <h3>3. What goes to our server (Supabase, EU)</h3>
 <table>
 <tr><th>Data</th><th>Purpose</th><th>Retention</th></tr>
-<tr><td>Nickname + game results (mode, board, time, moves, score, accuracy, win/winner, contest key)</td><td>global tops and contests</td><td>until you ask to delete</td></tr>
-<tr><td>Crash reports (version, mode, level, error text, phone model, OS version, actions before the error)</td><td>fixing crashes</td><td>raw — 90 days</td></tr>
+<tr><td>Nickname and game results (mode, board, time, moves, score, accuracy, win/winner, contest key) plus service data of the game and profile (deck, seed, sequence of moves, number of name changes) — for leaderboards and fair-play checks</td><td>global tops and contests</td><td>until you ask to delete</td></tr>
+<tr><td>Crash reports (version, mode, level, error text and technical trace, phone model, OS version, actions before the error)</td><td>fixing crashes</td><td>raw — 90 days</td></tr>
 <tr><td>Game events (action, mode, board, level, result, duration, language, version)</td><td>understanding what is played</td><td>raw — 90 days</td></tr>
 <tr><td>Anonymous player id (no sign-in, no email)</td><td>linking one device's rows</td><td>until you ask to delete</td></tr>
 </table>
 <p>The hosting provider automatically sees IP addresses (like any website); we do not collect or store them separately.</p>
 <h3>4. What we NEVER collect</h3>
-<p>Contacts, location, microphone/camera, SMS, installed apps, advertising IDs, payment data, children's sensitive data. No cross-app tracking (no Google Signals, no ad SDKs).</p>
+<p>Contacts, location, microphone/camera, SMS, installed apps, advertising IDs, payment data, children's sensitive data. No cross-app tracking: there are no third-party analytics or ad SDKs.</p>
 <h3>5. Who sees the data</h3>
 <ul>
 <li><b>Supabase</b> (EU hosting): stores tables on our behalf, TLS-encrypted.</li>
@@ -133,14 +133,14 @@ a{color:#2E6B5C}
 <h3>3. Qué va a nuestro servidor (Supabase, UE)</h3>
 <table>
 <tr><th>Datos</th><th>Finalidad</th><th>Conservación</th></tr>
-<tr><td>Apodo + resultados (modo, tablero, tiempo, movimientos, puntos, precisión, victoria/ganador, clave de competición)</td><td>tops mundiales y competiciones</td><td>hasta que pidas borrarlos</td></tr>
-<tr><td>Informes de errores (versión, modo, nivel, texto del error, modelo, SO, acciones antes del error)</td><td>corregir fallos</td><td>90 días</td></tr>
+<tr><td>Apodo y resultados (modo, tablero, tiempo, movimientos, puntos, precisión, victoria/ganador, clave de competición) y datos de servicio de la partida y del perfil (baraja, seed, secuencia de jugadas, número de cambios de apodo) — para los tops y el control de juego limpio</td><td>tops mundiales y competiciones</td><td>hasta que pidas borrarlos</td></tr>
+<tr><td>Informes de errores (versión, modo, nivel, texto del error y traza técnica, modelo, SO, acciones antes del error)</td><td>corregir fallos</td><td>90 días</td></tr>
 <tr><td>Eventos de juego (acción, modo, tablero, nivel, resultado, duración, idioma, versión)</td><td>saber qué se juega</td><td>90 días</td></tr>
 <tr><td>id anónimo de jugador (sin registro ni email)</td><td>relacionar un dispositivo</td><td>hasta que pidas borrarlo</td></tr>
 </table>
 <p>La IP la ve automáticamente el hosting (como cualquier web); no la recogemos ni guardamos aparte.</p>
 <h3>4. Lo que NUNCA recogemos</h3>
-<p>Contactos, ubicación, micrófono/cámara, SMS, apps instaladas, IDs de publicidad, pagos, datos sensibles de niños. Sin rastreo entre apps (sin Google Signals, sin SDK de anuncios).</p>
+<p>Contactos, ubicación, micrófono/cámara, SMS, apps instaladas, IDs de publicidad, pagos, datos sensibles de niños. Sin rastreo entre apps: no hay SDK de analítica ni de anuncios de terceros.</p>
 <h3>5. Quién ve los datos</h3>
 <ul>
 <li><b>Supabase</b> (alojamiento en la UE): guarda las tablas por nuestro encargo, conexión cifrada (TLS).</li>
@@ -180,14 +180,14 @@ a{color:#2E6B5C}
 <h3>3. 서버(Supabase, EU)로 가는 것</h3>
 <table>
 <tr><th>데이터</th><th>목적</th><th>보관 기간</th></tr>
-<tr><td>닉네임과 게임 결과(모드, 보드, 시간, 이동 수, 점수, 정확도, 승리/승자, 대회 키)</td><td>세계 랭킹과 대회</td><td>삭제를 요청할 때까지</td></tr>
-<tr><td>오류 보고(버전, 모드, 레벨, 오류 내용, 기종, OS 버전, 오류 전 동작)</td><td>오류 수정</td><td>원본 90일</td></tr>
+<tr><td>닉네임과 게임 결과(모드, 보드, 시간, 이동 수, 점수, 정확도, 승리/승자, 대회 키), 그리고 게임과 프로필의 서비스 데이터(덱, seed, 이동 순서, 닉네임 변경 횟수) — 랭킹과 공정성 검사용</td><td>세계 랭킹과 대회</td><td>삭제를 요청할 때까지</td></tr>
+<tr><td>오류 보고(버전, 모드, 레벨, 오류 내용과 기술 추적, 기종, OS 버전, 오류 전 동작)</td><td>오류 수정</td><td>원본 90일</td></tr>
 <tr><td>게임 이벤트(동작, 모드, 보드, 레벨, 결과, 소요 시간, 언어, 버전)</td><td>무엇을 플레이하는지 파악</td><td>원본 90일</td></tr>
 <tr><td>익명 플레이어 ID(로그인·이메일 없음)</td><td>한 기기의 기록 연결</td><td>삭제를 요청할 때까지</td></tr>
 </table>
 <p>IP 주소는 호스팅 업체가 자동으로 확인합니다(모든 웹사이트와 같습니다). 저희가 따로 수집하거나 저장하지는 않습니다.</p>
 <h3>4. 절대 수집하지 않는 것</h3>
-<p>연락처, 위치, 마이크와 카메라, SMS, 설치된 앱 목록, 광고 ID, 결제 정보, 아동의 민감 정보. 앱 간 추적은 하지 않습니다(Google Signals 없음, 광고 SDK 없음).</p>
+<p>연락처, 위치, 마이크와 카메라, SMS, 설치된 앱 목록, 광고 ID, 결제 정보, 아동의 민감 정보. 앱 간 추적은 하지 않습니다. 외부 분석·광고 SDK가 없습니다.</p>
 <h3>5. 누가 데이터를 보나요</h3>
 <ul>
 <li><b>Supabase</b>(EU 호스팅): 저희를 대신해 테이블을 보관하며, 연결은 TLS로 암호화됩니다.</li>
@@ -227,14 +227,14 @@ a{color:#2E6B5C}
 <h3>3. Was an unseren Server geht (Supabase, EU)</h3>
 <table>
 <tr><th>Daten</th><th>Zweck</th><th>Speicherung</th></tr>
-<tr><td>Nickname + Ergebnisse (Modus, Brett, Zeit, Züge, Punkte, Genauigkeit, Sieg/Gewinner, Wettbewerbsschlüssel)</td><td>Weltrangliste und Wettbewerbe</td><td>bis zur Löschanfrage</td></tr>
-<tr><td>Fehlerberichte (Version, Modus, Level, Fehlertext, Modell, OS, Aktionen vor dem Fehler)</td><td>Abstürze beheben</td><td>90 Tage</td></tr>
+<tr><td>Nickname und Spielergebnisse (Modus, Brett, Zeit, Züge, Punkte, Genauigkeit, Sieg/Gewinner, Wettbewerbsschlüssel) sowie Servicedaten zu Partie und Profil (Deck, Seed, Zugfolge, Anzahl der Namensänderungen) — für Ranglisten und Fairplay-Prüfung</td><td>Weltrangliste und Wettbewerbe</td><td>bis zur Löschanfrage</td></tr>
+<tr><td>Fehlerberichte (Version, Modus, Level, Fehlertext und technische Spur, Modell, OS, Aktionen vor dem Fehler)</td><td>Abstürze beheben</td><td>90 Tage</td></tr>
 <tr><td>Spielereignisse (Aktion, Modus, Brett, Level, Ergebnis, Dauer, Sprache, Version)</td><td>verstehen, was gespielt wird</td><td>90 Tage</td></tr>
 <tr><td>Anonyme Spieler-ID (ohne Anmeldung, ohne E-Mail)</td><td>ein Gerät zuordnen</td><td>bis zur Löschanfrage</td></tr>
 </table>
 <p>Die IP sieht automatisch das Hosting (wie jede Website); wir sammeln oder speichern sie nicht separat.</p>
 <h3>4. Was wir NIEMALS sammeln</h3>
-<p>Kontakte, Standort, Mikrofon/Kamera, SMS, installierte Apps, Werbe-IDs, Zahlungsdaten, sensible Kinderdaten. Kein Cross-App-Tracking (kein Google Signals, keine Ad-SDKs).</p>
+<p>Kontakte, Standort, Mikrofon/Kamera, SMS, installierte Apps, Werbe-IDs, Zahlungsdaten, sensible Kinderdaten. Kein Cross-App-Tracking: es gibt keine Analyse- oder Werbe-SDKs von Dritten.</p>
 <h3>5. Wer die Daten sieht</h3>
 <ul>
 <li><b>Supabase</b> (EU-Hosting): speichert Tabellen in unserem Auftrag, TLS-verschlüsselt.</li>
@@ -274,14 +274,14 @@ a{color:#2E6B5C}
 <h3>3. Ce qui va vers notre serveur (Supabase, UE)</h3>
 <table>
 <tr><th>Données</th><th>Finalité</th><th>Conservation</th></tr>
-<tr><td>Pseudo + résultats (mode, plateau, temps, coups, points, précision, victoire/gagnant, clé de compétition)</td><td>tops mondiaux et compétitions</td><td>jusqu’à demande de suppression</td></tr>
-<tr><td>Rapports d’erreurs (version, mode, niveau, texte d’erreur, modèle, OS, actions avant l’erreur)</td><td>corriger les plantages</td><td>90 jours</td></tr>
+<tr><td>Pseudo et résultats (mode, plateau, temps, coups, points, précision, victoire/gagnant, clé de compétition) ainsi que données techniques de la partie et du profil (jeu de cartes, seed, ordre des coups, nombre de changements de pseudo) — pour les classements et le contrôle d’équité</td><td>tops mondiaux et compétitions</td><td>jusqu’à demande de suppression</td></tr>
+<tr><td>Rapports d’erreurs (version, mode, niveau, texte d’erreur et trace technique, modèle, OS, actions avant l’erreur)</td><td>corriger les plantages</td><td>90 jours</td></tr>
 <tr><td>Événements de jeu (action, mode, plateau, niveau, résultat, durée, langue, version)</td><td>comprendre ce qui est joué</td><td>90 jours</td></tr>
 <tr><td>id anonyme de joueur (sans inscription ni e-mail)</td><td>relier un appareil</td><td>jusqu’à demande de suppression</td></tr>
 </table>
 <p>L’IP est visible automatiquement par l’hébergeur (comme tout site) ; nous ne la collectons ni stockons séparément.</p>
 <h3>4. Ce que nous ne collectons JAMAIS</h3>
-<p>Contacts, localisation, micro/caméra, SMS, apps installées, IDs pub, paiements, données sensibles d’enfants. Pas de pistage inter-apps (ni Google Signals, ni SDK pub).</p>
+<p>Contacts, localisation, micro/caméra, SMS, apps installées, IDs pub, paiements, données sensibles d’enfants. Pas de pistage inter-apps : aucun SDK tiers d’analyse ni de publicité.</p>
 <h3>5. Qui voit les données</h3>
 <ul>
 <li><b>Supabase</b> (hébergement UE) : stocke les tables pour notre compte, chiffré TLS.</li>
@@ -321,14 +321,14 @@ a{color:#2E6B5C}
 <h3>3. Серверге не барады (Supabase, EU)</h3>
 <table>
 <tr><th>Дерек</th><th>Мақсат</th><th>Сақтау</th></tr>
-<tr><td>Ник + ойын нәтижелері (режим, өріс, уақыт, жүріс, ұпай, дәлдік, жеңіс/жеңімпаз, жарыс кілті)</td><td>әлемдік топ, жарыстар</td><td>жоюды сұрағанша</td></tr>
-<tr><td>Қате есептері (нұсқа, режим, деңгей, қате мәтіні, модель, ОЖ, қате алдындағы әрекеттер)</td><td>құлауды түзету</td><td>90 күн</td></tr>
+<tr><td>Ник және ойын нәтижелері (режим, өріс, уақыт, жүріс, ұпай, дәлдік, жеңіс/жеңімпаз, жарыс кілті), сондай-ақ ойын мен профильдің қызметтік деректері (колода, seed, жүрістер реті, ник өзгерту саны) — топтар мен адалдықты тексеру үшін</td><td>әлемдік топ, жарыстар</td><td>жоюды сұрағанша</td></tr>
+<tr><td>Қате есептері (нұсқа, режим, деңгей, қате мәтіні және техникалық із, модель, ОЖ, қате алдындағы әрекеттер)</td><td>құлауды түзету</td><td>90 күн</td></tr>
 <tr><td>Ойын оқиғалары (әрекет, режим, тақта, деңгей, нәтиже, ұзақтық, тіл, нұсқа)</td><td>не ойналатынын түсіну</td><td>90 күн</td></tr>
 <tr><td>Жасырын ойыншы ID (тіркелусіз, emailсіз)</td><td>бір құрылғының жолдарын байланыстыру</td><td>жоюды сұрағанша</td></tr>
 </table>
 <p>IP-ді хостинг автоматты көреді (кез келген сайт сияқты); бөлек жинамаймыз, сақтамаймыз.</p>
 <h3>4. Ешқашан жинамаймыз</h3>
-<p>Контактілер, геолокация, микрофон/камера, SMS, орнатылған қолданбалар, жарнама ID, төлемдер, балалардың сезімтал дерегі. Қолданбалар арасында бақылау жоқ (Google Signals жоқ, жарнама SDK жоқ).</p>
+<p>Контактілер, геолокация, микрофон/камера, SMS, орнатылған қолданбалар, жарнама ID, төлемдер, балалардың сезімтал дерегі. Қолданбалар арасында бақылау жоқ: бөгде талдау және жарнама SDK жоқ.</p>
 <h3>5. Деректі кім көреді</h3>
 <ul>
 <li><b>Supabase</b> (EU хостинг): біздің тапсырмамен сақтайды, TLS шифр.</li>
@@ -368,14 +368,14 @@ a{color:#2E6B5C}
 <h3>3. O que vai para o nosso servidor (Supabase, UE)</h3>
 <table>
 <tr><th>Dado</th><th>Para quê</th><th>Prazo</th></tr>
-<tr><td>Apelido + resultados (modo, tabuleiro, tempo, jogadas, pontos, precisão, vitória/vencedor, chave da competição)</td><td>topos mundiais e competições</td><td>até você pedir exclusão</td></tr>
-<tr><td>Relatórios de falha (versão, modo, nível, texto do erro, modelo do aparelho, versão do sistema, ações antes do erro)</td><td>corrigir falhas</td><td>bruto — 90 dias</td></tr>
+<tr><td>Apelido e resultados (modo, tabuleiro, tempo, jogadas, pontos, precisão, vitória/vencedor, chave da competição) e dados de serviço da partida e do perfil (baralho, seed, ordem das jogadas, número de trocas de apelido) — para os topos e a verificação de jogo limpo</td><td>topos mundiais e competições</td><td>até você pedir exclusão</td></tr>
+<tr><td>Relatórios de falha (versão, modo, nível, texto do erro e rastro técnico, modelo do aparelho, versão do sistema, ações antes do erro)</td><td>corrigir falhas</td><td>bruto — 90 dias</td></tr>
 <tr><td>Eventos de jogo (ação, modo, tabuleiro, nível, resultado, duração, idioma, versão)</td><td>entender o que é jogado</td><td>bruto — 90 dias</td></tr>
 <tr><td>Id anônimo de jogador (sem cadastro nem e-mail)</td><td>ligar as linhas de um mesmo aparelho</td><td>até você pedir exclusão</td></tr>
 </table>
 <p>O provedor de hospedagem vê endereços IP automaticamente (como qualquer site); não os coletamos nem armazenamos à parte.</p>
 <h3>4. O que NUNCA coletamos</h3>
-<p>Contatos, localização, microfone/câmera, SMS, apps instalados, identificadores de publicidade, dados de pagamento e dados sensíveis de crianças. Sem rastreamento entre apps (sem Google Signals, sem SDK de anúncios).</p>
+<p>Contatos, localização, microfone/câmera, SMS, apps instalados, identificadores de publicidade, dados de pagamento e dados sensíveis de crianças. Sem rastreamento entre apps: não há SDK de análise nem de anúncios de terceiros.</p>
 <h3>5. Quem vê os dados</h3>
 <ul>
 <li><b>Supabase</b> (hospedagem na UE): guarda as tabelas por nós, com TLS.</li>
